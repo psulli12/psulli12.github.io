@@ -1,0 +1,11 @@
+body{
+  margin:20px;
+}
+
+.name{
+	text-align:right;
+}
+
+select,button{
+	margin-left:5px;
+}
