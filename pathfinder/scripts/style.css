@@ -2,10 +2,15 @@ body{
   margin:20px;
 }
 
+select,button{
+	margin-left:5px;
+}
+
 .name{
 	text-align:right;
 }
 
-select,button{
-	margin-left:5px;
+.hidden{
+	display:none;
+	visibility:inherit;
 }
