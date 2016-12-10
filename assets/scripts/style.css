@@ -1,12 +1,31 @@
 body{
-  font-family:sans-serif;
-  margin:20px;
+	font-family:sans-serif;
+	margin:20px;
+	background-color: white;
+	color: #211a21;
 }
 
-p{
-	margin-left:20px;
+a, a:visited, a:hover, a:active{
+	text-decoration:none;
+	color: inherit;
+	-o-transition:1s;
+	-ms-transition:1s;
+	-moz-transition:1s;
+	-webkit-transition:1s;
+	transition:1s;
 }
 
-a{
-	text-decoration: none;
+#twitter-icon:hover{
+	color: #55acee;
+}
+
+#atlus, #bio-icon:hover, #portfolio-icon:hover, #contact-icon:hover{
+	color: #4f43ae;
+}
+
+.vertical-center {
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
 }
