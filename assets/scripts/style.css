@@ -5,7 +5,7 @@ body{
 	color: #211a21;
 }
 
-a, a:visited, a:hover, a:active{
+.icon, .icon:visited, .icon:hover, .icon:active, a:hover, a:active{
 	text-decoration:none;
 	color: inherit;
 	-o-transition:1s;
@@ -19,8 +19,12 @@ a, a:visited, a:hover, a:active{
 	color: #55acee;
 }
 
-#atlus, #bio-icon:hover, #portfolio-icon:hover, #contact-icon:hover{
+a, #bio-icon:hover, #portfolio-icon:hover, #contact-icon:hover{
 	color: #4f43ae;
+}
+
+img{
+	max-width: 100%;
 }
 
 .vertical-center {

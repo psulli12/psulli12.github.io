@@ -8,6 +8,7 @@
     <link href="assets/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="assets/scripts/style.css" rel="stylesheet">
+    <link href="favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
     <div class="container vertical-center">
@@ -18,46 +19,122 @@
         </div>
 
         <div class="row collapse" id="bio">
+            <!--<div class="col-md-3 col-md-offset-1">
+                <img src="assets/img/card.jpg">
+            </div>-->
             <div class="col-md-4 col-md-offset-4">
                 <div class="well">
                     <p>My name is Patrick, and I have a lot of feelings about games.</p>
-                    <p>I'm a queer writer, game designer, Unity3D developer, and freelance editor currently under contract for the <a id="atlus" href="http://atlus.com/">Atlus USA</a> localization team. My editing credits include <strong>Caligula (2016)</strong> and two as-yet unannounced titles.</p>
-                    <p>I'm also developing a tabletop roleplaying game called <strong>Dungeonhearts</strong>, which will be available for playtesting in 2017.</p>
-                    <p>I care deeply about storytelling and games as a story medium, and believe in the human imperative to create.</p>
+                    <p>I'm a queer writer, game designer, Unity3D developer, and freelance editor currently under contract for the <a href="http://atlus.com/">Atlus USA</a> localization team. My editing credits include <strong>Caligula (2017)</strong> and two as-yet unannounced titles.</p>
+                    <p>I'm also developing a tabletop roleplaying game called <a href="#" class="inbetween" data-toggle="collapse" data-target="#design">Dungeonhearts</a>, which will be available for playtesting in 2017.</p>
+                    <p>I care deeply about storytelling and games as a story medium, believe in the human imperative to create, and drink way too much coffee.</p>
                     <p>Incidentally, I also hope you're having a good day.</p>
                 </div>
             </div>
         </div>
 
-        <div class="row collapse" id="portfolio">
+        <div class="row collapse" id="writing">
             <div class="col-md-4 col-md-offset-4">
                 <div class="well">
-                    <p>oh god stuff goes here probably</p>
+                    <p><strong>Trip</strong> is a cyberpunk short story published in the 2015 edition of <strong>L.A. MISCELLANY</strong>, exploring the implications of easily accessible full-immersion virtual reality. <a href="#">[Download]</a></p>
+                    <p><strong>The Banner</strong> is a poetic ballad published in the 2015 edition of <strong>ATTIC SALT</strong>, my college's honors-students-only journal. I was not an honors student. They took it anyway. <a href="#">[Download]</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row collapse" id="design">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="well">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="assets/img/dungeonhearts_logo.png">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p><strong>Dungeonhearts</strong> is my current passion project, a tabletop RPG about the relationships between dungeon-delving adventurers and the trials they undergo together. Inspired by the design principles of the <a href="https://www.burningwheel.com/">Burning Wheel</a>, <a href="http://www.dungeon-world.com/">Dungeon World</a>, the <a href="http://apocalypse-world.com/poweredbytheapocalypse.html">Powered by the Apocalypse</a> engine, and the <a href="http://megamitensei.wikia.com/wiki/Persona_(Series)">Shin Megami Tensei: Persona</a> video game franchise, Dungeonhearts is my largest design undertaking to date, and will be available for playtesting in 2017.</p>
+                            <p>Until that auspicious time, anyone interested in the project's details is encouraged to <a href="mailto:p.sulli@protonmail.com">email me</a>!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row collapse" id="credits">
+            <div class="col-md-4 col-md-offset-4">
+                <div class="well">
+                    <div class="row">
+                        <div class="col-md-4" id="writing-icon">
+                            <a href="http://www.siliconera.com/2016/06/16/caligula-releasing-americas-europe-spring-2017-playstation-vita/"><img src="assets/img/caligula.png"></a>
+                            <h5 class="text-center"><a href="http://www.siliconera.com/2016/06/16/caligula-releasing-americas-europe-spring-2017-playstation-vita/"><strong>Caligula</strong></a> (2017)</h5>
+                        </div>
+                        <div class="col-md-4" id="writing-icon">
+                            <img src="assets/img/unannounced.png">
+                            <h5 class="text-center"><strong>Unannounced</strong> (2017)</h5>
+                        </div>
+                        <div class="col-md-4" id="writing-icon">
+                            <img src="assets/img/unannounced.png">
+                            <h5 class="text-center"><strong>Unannounced</strong> (20XX)</h5>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>These are titles whose localization I've lent my expertise as an editor to, working closely with in-house translators to deliver quality text for each. Please consider checking them out if you own the platform(s) they're available on!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row collapse" id="portfolio">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4">
+                    <div class="well">
+                        <div class="row">
+                            <div class="col-md-3 col-md-offset-2" id="writing-icon">
+                                <a class="icon" href = "#" data-toggle="tooltip" data-placement="bottom" title="Writing">
+                                    <i class="fa fa-book fa-2x" aria-hidden="true" data-toggle="collapse" data-target="#writing"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-3" id="design-icon">
+                                <a class="icon" href = "#" data-toggle="tooltip" data-placement="bottom" title="Design">
+                                    <i class="fa fa-gears fa-2x" aria-hidden="true" data-toggle="collapse" data-target="#design"></i>
+                                </a>
+                            </div>
+                            <div class="col-md-3" id="gamepad-icon">
+                                <a class="icon" href = "#" data-toggle="tooltip" data-placement="bottom" title="Industry Credits">
+                                    <i class="fa fa-gamepad fa-2x" aria-hidden="true" data-toggle="collapse" data-target="#credits"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="row">
             <div id="bio-icon" class="col-md-1 col-md-offset-4 text-center">
-                <a href = "#" data-toggle="tooltip" data-placement="bottom" title="Bio">
+                <a class="icon" href = "#" data-toggle="tooltip" data-placement="bottom" title="Bio">
                     <i class="fa fa-user fa-2x" aria-hidden="true" data-toggle="collapse" data-target="#bio"></i>
                 </a>
             </div>
 
             <div id="portfolio-icon" class="col-md-1 text-center">
-                <a href = "#" data-toggle="tooltip" data-placement="bottom" title="Portfolio">
+                <a class="icon"  href = "#" data-toggle="tooltip" data-placement="bottom" title="Portfolio">
                     <i class="fa fa-pencil fa-2x" aria-hidden="true" data-toggle="collapse" data-target="#portfolio"></i>
                 </a>
             </div>
 
             <div id="twitter-icon" class="col-md-1 text-center">
-                <a href = "http://twitter.com/red_troubadour" data-toggle="tooltip" data-placement="bottom" title="Twitter">
+                <a class="icon"  href = "http://twitter.com/red_troubadour" data-toggle="tooltip" data-placement="bottom" title="Twitter">
                     <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
                 </a>
             </div>
 
             <div id="contact-icon" class="col-md-1 text-center">
-                <a href = "mailto:p.sulli@protonmail.com" data-toggle="tooltip" data-placement="bottom" title="Contact">
+                <a class="icon"  href = "mailto:p.sulli@protonmail.com" data-toggle="tooltip" data-placement="bottom" title="Contact">
                     <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
                 </a>
             </div>
@@ -70,12 +147,14 @@
             $('[data-toggle="tooltip"]').tooltip(); 
         });
 
-        $("#bio-icon").click(function() {
-            $("#portfolio").collapse('hide');
+        $('.icon').click(function(){
+          $('.collapse').collapse('hide');
+          $('.collapse-in').collapse('hide');
         });
 
-        $("#portfolio-icon").click(function() {
-            $("#bio").collapse('hide');
+        $('.inbetween').click(function(){
+          $('.collapse').collapse('hide');
+          $('.collapse-in').collapse('hide');
         });
     </script>
 </body>
